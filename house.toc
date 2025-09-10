@@ -1,0 +1,9 @@
+## Interface: 11200
+## Version: 0.0.1
+## Author: Meowrrior
+## Notes: My silly little addon
+## SavedVariables: HouseDB
+
+globals.lua
+settings.lua
+house.lua
