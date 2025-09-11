@@ -98,7 +98,7 @@ spellTracker:SetScript("OnEvent", function()
         local castedSpell = { SpellInfo(arg4) }
         local castedAt = GetTime()
 
-        if not blacklist[castedSpell[1]] and (castedSpell[1] ~= spellTracker.spells[1].text or spellTracker.spells[1].time + 0.1 < castedAt) then
+        if not blacklist[castedSpell[1]] and (castedSpell[1] ~= spellTracker.spells[1].text or castedAt > spellTracker.spells[1].time + 0.1) then
             for i = HouseDB.frame.spellCount, 1, -1 do
                 if i > 1 then
                     local oldSpell = spellTracker.spells[i - 1]
