@@ -1,0 +1,13 @@
+## Interface: 11200
+## Version: 0.1.0
+## Author: Meowrrior
+## Notes: A lightweight spell tracker
+## SavedVariables: SpellTrackerDB
+
+# Fonts
+
+fonts\Myriad-Pro.ttf
+
+# Main
+
+core.lua
